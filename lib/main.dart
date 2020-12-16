@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'BMI Calculator',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
@@ -51,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (_bmi < 18.5) {
       _showDialog('You are underweight!');
-    } else if (_bmi >= 18.8 && _bmi <= 24.9) {
+    } else if (_bmi >= 18.5 && _bmi <= 24.9) {
       _showDialog('You are having normal weight. Well done!');
     } else if (_bmi >= 25 && _bmi <= 29.9) {
       _showDialog('You are overweight!');
@@ -120,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
                 margin: EdgeInsets.all(20),
                 width: double.infinity,
-                height: 50,
+                height: 55,
                 child: ElevatedButton(
                   child: Text('Calculate'),
                   onPressed: _calculateBMI,
