@@ -1,16 +1,11 @@
-# bmi
+# BMI Calculator
 
-A new Flutter project.
+A demo Flutter project for INFO 4335 Mobile Application Development Course.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is to explain the use of stateless and stateful widgets. Refer to Flutter and Material UI Official Documentations:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
+- [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+- [Material UI] (https://m2.material.io/design)
