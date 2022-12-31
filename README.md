@@ -10,5 +10,5 @@ This project is to explain the use of stateless and stateful widgets. Refer to F
 samples, guidance on mobile development, and a full API reference.
 - [Material Design](https://m2.material.io/design), which provides documentation for Google's open source design system.
 
-- Cupertino - iOS-style widgets
-- Material - Android-style widgets
+- [Cupertino](https://docs.flutter.dev/development/ui/widgets/cupertino) - iOS-style widgets
+- [Material](https://docs.flutter.dev/development/ui/widgets/material) - Android-style widgets
